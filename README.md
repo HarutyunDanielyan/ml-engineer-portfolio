@@ -171,72 +171,177 @@ This repository contains all materials from the 10-month Machine Learning Engine
 ml-engineer-portfolio/
 │
 ├── s01_mathematics/
-│   ├── lectures/              # Lecture notes / Դասախոսությունների նշումներ
-│   ├── homeworks/             # Homework solutions / Տնային առաջադրանքներ
-│   ├── notes/                 # Personal concept notes / Անձնական նշումներ
-│   ├── resources/             # Additional materials / Լրացուցիչ նյութեր
-│   └── README.md              # S01 Section details / Բաժնի մանրամասներ
+│   ├── homeworks/
+│   │   ├── hw01_linear_algebra/
+│   │   │   ├── hw01_linear_algebra.ipynb        # Main notebook / Հիմնական notebook
+│   │   │   ├── README.md                        # Problem description / Առաջադրանքի նկարագրություն
+│   │   │   └── assets/                          # Plots & diagrams / Գծապատկերներ
+│   │   ├── hw02_calculus/
+│   │   │   ├── hw02_calculus.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...              
+│   │       
+│   ├── lectures/                                # Lecture notes / Դասախոսությունների նշումներ
+│   ├── notes/                                   # Personal concept notes / Անձնական նշումներ
+│   ├── resources/                               # Additional materials / Լրացուցիչ նյութեր
+│   └── README.md                                # S01 Section details / Բաժնի մանրամասներ
 │
 ├── s02_python_programming/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_basics/
+│   │   │   ├── hw01_basics.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_oop/
+│   │   │   ├── hw02_oop.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...              
+│   │       
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s03_machine_learning/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_linear_regression/
+│   │   │   ├── hw01_linear_regression.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_classification/
+│   │   │   ├── hw02_classification.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...      
+│   │       
+│   ├── projects/                                # ML Project I and II (S03) / ՄՈՒ նախագիծ I և II (S03)
+│   │   ├── project_01/
+│   │   │   ├── project_01.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── project_02/
+│   │       ├── project_02.ipynb
+│   │       ├── README.md
+│   │       └── assets/  
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
-│   ├── projects/              # ML Project I and II (S03) / ՄՈՒ նախագիծ I և II (S03)
-│   └── README.md
+│   └── README.md                              
 │
 ├── s04_time_series/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_decomposition/
+│   │   │   ├── hw01_decomposition.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_forecasting/
+│   │   │   ├── hw02_forecasting.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s05_natural_language_processing/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_text_preprocessing/
+│   │   │   ├── hw01_text_preprocessing.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_embeddings/
+│   │   │   ├── hw02_embeddings.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s06_large_language_models/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_prompting/
+│   │   │   ├── hw01_prompting.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_fine_tuning/
+│   │   │   ├── hw02_fine_tuning.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s07_computer_vision/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_image_processing/
+│   │   │   ├── hw01_image_processing.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_cnn/
+│   │   │   ├── hw02_cnn.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s08_ethics_in_ai/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_bias_fairness/
+│   │   │   ├── hw01_bias_fairness.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s09_mlops/
-│   ├── lectures/
 │   ├── homeworks/
+│   │   ├── hw01_experiment_tracking/
+│   │   │   ├── hw01_experiment_tracking.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── hw02_deployment/
+│   │   │   ├── hw02_deployment.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...
+│   │
+│   ├── lectures/
 │   ├── notes/
 │   ├── resources/
 │   └── README.md
 │
 ├── s10_capstone_projects/
-│   ├── capstone/              # S10 — Capstone Projects (S05–S09) / Վերջնական նախագծեր (S05–S09)
-│   └── README.md
+│   ├── capstone/
+│   │   ├── project_name_01/                        
+│   │   │   ├── project_name_01.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   ├── project_name_02/                        
+│   │   │   ├── project_name_02.ipynb
+│   │   │   ├── README.md
+│   │   │   └── assets/
+│   │   └── ...                                    
+│   │       
+│   └── README.md                                # S10 — Capstone Projects (S05–S09) / Վերջնական նախագծեր (S05–S09)
 │
 ├── s11_career_prep/
 │   ├── resume/
@@ -244,7 +349,10 @@ ml-engineer-portfolio/
 │   ├── interview_prep/
 │   └── README.md
 │
-├── _templates/                # Obsidian templates
+├── _templates/                                  # Obsidian + Notebook templates / Obsidian + Notebook ձևանմուշներ
+│   ├── homework_template.ipynb                  # Copy for every new HW / Պատճենիր ամեն նոր տնային աշխատանքի համար
+│   └── homework_readme_template.md              # HW README template / Տնային աշխատանքի README ձևանմուշ
+│
 ├── .gitignore
 ├── LICENSE
 └── README.md
